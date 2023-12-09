@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6743767577100735080
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4282311855642466812}
+  - component: {fileID: -1748958384008552426}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4282311855642466812
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6743767577100735080}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &-1748958384008552426
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6743767577100735080}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80160dde08f4dde4196e787b6cc17328, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _audioList:
+  - {fileID: 11400000, guid: 80ed98e07222bc1499b5a5163797c7fb, type: 2}
+  - {fileID: 11400000, guid: a7491c44088ef924d8f09b076963b2e2, type: 2}
+  - {fileID: 11400000, guid: 520614a8bea379544a6b29d43d750949, type: 2}
+  - {fileID: 11400000, guid: dfd58c9b47413064a90d2bed927bfba4, type: 2}
+  - {fileID: 11400000, guid: 17f847a97a7cbb6418f54ddedbeaf9f5, type: 2}
+  - {fileID: 11400000, guid: ad8c85f7c82d9f44c9aadbf6637a2d12, type: 2}
+  - {fileID: 11400000, guid: 7a8e562750a20c640963f3be653ebff1, type: 2}
+  - {fileID: 11400000, guid: 624073b482c1c4f4d9f6f4b0e2a4b1cc, type: 2}
+  - {fileID: 11400000, guid: 46494e2f0c4975a449dcf560d64891a1, type: 2}
+  - {fileID: 11400000, guid: f46ac8150b0a7154d934209b179f3199, type: 2}
+  - {fileID: 11400000, guid: 57144a6526eb55c4b98d6cca8e620fe4, type: 2}
+  _sourcePrefab: {fileID: 9088799500879714793, guid: b5070f45949bb344896b4ea34db7cce3, type: 3}
